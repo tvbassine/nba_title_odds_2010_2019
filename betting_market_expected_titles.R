@@ -7,8 +7,6 @@
 ##############################################################################
 # Read in Data:
 
-x <- read.csv('~/Downloads/NBA Pre-Playoff Championship Odds - All Years.csv',
-              stringsAsFactors = F)
 x <- read.csv('https://raw.githubusercontent.com/tvbassine/nba_title_odds_2010_2019/master/NBA%20Pre-Playoff%20Championship%20Odds%20-%20All%20Years.csv',
               stringsAsFactors = F)
 
